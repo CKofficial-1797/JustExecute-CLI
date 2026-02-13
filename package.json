@@ -14,9 +14,9 @@
     "start": "npm run build && node build/index.js"
   },
   "keywords": [],
-  "author": "Sonu Hansda",
+  "author": "CK",
   "license": "ISC",
-  "description": "Excela is a CLI tool designed to simplify project setup. It helps you quickly set up backend, frontend, or fullstack projects like MERN, with options to include TailwindCSS and other essential tools.",
+  "description": "__",
   "dependencies": {
     "@inquirer/prompts": "^7.1.0",
     "@types/node": "^22.10.0",
