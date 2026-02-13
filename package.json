@@ -1,0 +1,30 @@
+{
+  "name": "excela",
+  "version": "1.0.5",
+  "main": "./build/index.js",
+  "bin": {
+    "excela": "./build/index.js"
+  },
+  "engines": {
+    "node": ">=18 <=22"
+  },
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "keywords": [],
+  "author": "Sonu Hansda",
+  "license": "ISC",
+  "description": "Excela is a CLI tool designed to simplify project setup. It helps you quickly set up backend, frontend, or fullstack projects like MERN, with options to include TailwindCSS and other essential tools.",
+  "dependencies": {
+    "@inquirer/prompts": "^7.1.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "utils": "^0.3.1"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2"
+  }
+}
